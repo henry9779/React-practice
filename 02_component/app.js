@@ -34,9 +34,6 @@ ReactDOM.render(
     <FunctionalComponet />
     <FunctionalComponet />
     <FunctionalComponet />
-    <FunctionalComponet />
-    <FunctionalComponet />
-    <FunctionalComponet />
   </div>,
   document.getElementById('app')
 )

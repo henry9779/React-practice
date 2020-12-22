@@ -1,20 +1,19 @@
 
 
 function CategoryItem(props){
-  /* // TODO1
+
   return (
     <div className="category-item">
       <img src={props.image} />
       <p>{props.name}</p>
     </div>
   )
-  // */
+
 }
 
 function List(){
   const [list, setList] = React.useState([]);
 
-  /* // TODO2
   React.useEffect(() => {
     fetch('./categories.json')
       .then((res) => res.json())
@@ -40,7 +39,6 @@ function List(){
       </div>
     </div>
   )
-  // */
 }
 
 ReactDOM.render(

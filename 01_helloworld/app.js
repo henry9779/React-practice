@@ -3,7 +3,7 @@
 ReactDOM.render( 
   <div>
     <h1> Hello, World!! </h1>
-    <h2> Hello, REACt!! </h2>
+    <h2> Hello, REACT!! </h2>
   </div>,
     document.getElementById('app')
 )

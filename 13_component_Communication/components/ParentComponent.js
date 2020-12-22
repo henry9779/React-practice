@@ -4,7 +4,7 @@ function ParentComponent(){
   const atCallParent = (value) => {
     setDate(value);
   }
-  /* // TODO
+
   return (
     <div className="parent-component">
       <h1>ParentComponent</h1>
@@ -16,5 +16,5 @@ function ParentComponent(){
         onCallParent={atCallParent}/>
     </div>
   );
-  // */
+
 }

@@ -1,7 +1,6 @@
 function ChildComponent(props){
   const atClick = () => {
-    // TODO
-    // props.onCallParent('Hi, daddy');
+    props.onCallParent('Hi, daddy');
   }
   return (
     <div className="child-component">

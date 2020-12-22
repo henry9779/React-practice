@@ -2,7 +2,6 @@ function UseRefExample(){
   const [count, setCount] = React.useState(0);
   const [show, setShow] = React.useState(false);
 
-  /* // TODO
   const refInput = React.useRef();
 
   const atShowClick = () => {
@@ -21,7 +20,6 @@ function UseRefExample(){
     }
   }, [show]);
 
-  
   return (
     <div className="ref-example-component">
       <section>
@@ -33,7 +31,6 @@ function UseRefExample(){
       </section>
     </div>
   );
-  // */
 }
 
 ReactDOM.render(
