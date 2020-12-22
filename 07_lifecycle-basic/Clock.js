@@ -1,14 +1,12 @@
 
 function Clock() {
   
-  /* // TODO
-  React.useEffect(() => {
+  React.useEffect(() =>{
     console.log('componentDidMount')
-    return () => {
-      console.log('componentWillUnmount');
+    return () =>{
+      console.log('componetWillUnmount')
     }
   }, []);
-  // */
 
   return (
     <div className="my-component">
