@@ -2,8 +2,8 @@
 
 ReactDOM.render( 
   <div>
-    <h1> Hello, REACT!! </h1>
-    <h2> Hello, World!! </h2>
+    <h1> Hello, World!! </h1>
+    <h2> Hello, REACt!! </h2>
   </div>,
     document.getElementById('app')
 )

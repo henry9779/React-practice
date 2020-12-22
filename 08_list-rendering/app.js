@@ -3,7 +3,7 @@ const numbers = [1, 2, 3, 4, 5];
 const doubled = numbers.map((number) => number * 2);
 
 function List(){
-  /* // TODO
+
   const [list, setList] = React.useState(['學會 JS', '學會 React', '年薪百萬']);
   const atAddClick = () => {
     var newList = list.concat(new Date().toString());
@@ -21,7 +21,6 @@ function List(){
       </ol>
     </div>
   )
-  // */
 }
 
 ReactDOM.render(
