@@ -6,19 +6,18 @@ function GuestGreeting() {
 }
 
 function App(){
-  /* // TODO
+  
   const [isLoggedIn, setLoggedIn] = React.useState(false);
-  const atClick = () => {
+  const atClick = () =>{
     setLoggedIn(!isLoggedIn);
   }
-  return (
+  return(
     <div className="app">
       <button onClick={atClick}>{isLoggedIn ? '登出' : '登入'}</button>
       {isLoggedIn ? <UserGreeting /> : <GuestGreeting />}
-      {isLoggedIn && <UserGreeting name="milkmidi" />}
     </div>
   )
-  // */
+
 }
 
 ReactDOM.render(
